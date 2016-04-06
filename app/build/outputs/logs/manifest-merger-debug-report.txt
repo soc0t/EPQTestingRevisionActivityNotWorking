@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:7:5-57:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] D:\app1\EPQTestingNotWorking-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] D:\app1\EPQTestingNotWorking-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:10:9-41
+	android:allowBackup
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:11:9-40
+activity#comepqtesting.wix.socot.epqtesting.MainActivity
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:18:27-74
+activity#comepqtesting.wix.socot.epqtesting.Main2Activity
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:21:9-24:20
+	android:label
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:23:13-57
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:22:13-42
+activity#comepqtesting.wix.socot.epqtesting.Settings
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:25:9-28:20
+	android:label
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:27:13-60
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:26:13-37
+activity#comepqtesting.wix.socot.epqtesting.AlarmClock
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:29:9-32:20
+	android:label
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:31:13-63
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:30:13-39
+receiver#comepqtesting.wix.socot.epqtesting.Alarm_Reciever
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:34:9-52
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:34:19-49
+service#comepqtesting.wix.socot.epqtesting.RingtonePlayingService
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:36:9-39:19
+	android:enabled
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:38:13-35
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:37:13-51
+activity#comepqtesting.wix.socot.epqtesting.Homework
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:41:9-44:20
+	android:label
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:43:13-60
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:42:13-37
+activity#comepqtesting.wix.socot.epqtesting.Calculator
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:47:13-62
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:46:13-39
+activity#comepqtesting.wix.socot.epqtesting.Timetable
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:49:9-52:20
+	android:label
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:51:13-61
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:50:13-38
+activity#comepqtesting.wix.socot.epqtesting.Revision
+ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:53:9-56:20
+	android:label
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:55:13-60
+	android:name
+		ADDED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml:54:13-37
+uses-sdk
+INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.0.1] D:\app1\EPQTestingNotWorking-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] D:\app1\EPQTestingNotWorking-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\app1\EPQTestingNotWorking-master\app\src\main\AndroidManifest.xml
