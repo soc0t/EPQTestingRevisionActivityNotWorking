@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,6 +23,7 @@ public class Revision extends AppCompatActivity {
 
     EditText nameTxt1, phoneTxt1, emailTxt1, addressTxt1;
     List<Contact1> Contacts = new ArrayList<Contact1>();
+    ListView contactListView1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +33,8 @@ public class Revision extends AppCompatActivity {
         nameTxt1 = (EditText) findViewById(R.id.txtName1);
         phoneTxt1 = (EditText)findViewById(R.id.txtPhone1);
         emailTxt1 = (EditText) findViewById(R.id.txtEmail1);
-        addressTxt1 = (EditText) findViewById(R.id.txtAddress);
+        addressTxt1 = (EditText) findViewById(R.id.txtAddress1);
+        contactListView1 = (ListView) findViewById(R.id.listView2);
         TabHost tabHost = (TabHost) findViewById(R.id.tabHost1);
 
         tabHost.setup();
@@ -56,7 +59,8 @@ public class Revision extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 addContact1(nameTxt1.getText().toString(), phoneTxt1.getText().toString(), emailTxt1.getText().toString(), addressTxt1.getText().toString());
-                Toast.makeText(getApplicationContext(), nameTxt1.getText().toString() + "Your Revision has been set!", Toast.LENGTH_SHORT).show();
+                populateList();
+                Toast.makeText(getApplicationContext(), nameTxt1.getText().toString() + " Revision has been set!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -76,6 +80,11 @@ public class Revision extends AppCompatActivity {
 
             }
         });
+    }
+
+    private void populateList() {
+        ArrayAdapter<Contact1> adapter = new ContactListAdapter();
+        contactListView1.setAdapter(adapter);
     }
 
     private void addContact1(String name, String phone, String email, String address) {
